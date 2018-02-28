@@ -1,14 +1,14 @@
 <ion-header>
+
   <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
+    <ion-title>เข้าสู่ระบบด้วยลายนิ้วมือ</ion-title>
   </ion-navbar>
+
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content padding center text-center>
+  <p>สแกนลายนิ้วมือ</p>
+  <button ion-button icon-only (click)="login()">
+    <ion-icon name="finger-print"></ion-icon>
+  </button>
 </ion-content>
